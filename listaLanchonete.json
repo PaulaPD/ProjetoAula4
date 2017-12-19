@@ -1,0 +1,28 @@
+[
+    {
+        "produto": "Pizza",
+        "id": 1,
+        "imagem":"https://raw.githubusercontent.com/PaulaPD/ProjetoAula4/master/pizza.jpg"
+    },
+    {
+        "produto": "Açai",
+        "id": 2,
+        "imagem":"https://raw.githubusercontent.com/PaulaPD/ProjetoAula4/master/acai.jpg"
+    },
+    {
+        "produto": "Coxinha",
+        "id": 3,
+        "imagem":"https://raw.githubusercontent.com/PaulaPD/ProjetoAula4/master/coxinha.jpg"
+    },
+    {
+        "produto": "Combo Lanche",
+        "id": 4,
+        "imagem":"https://raw.githubusercontent.com/PaulaPD/ProjetoAula4/master/lanche.jpg"
+    },
+    {
+        "produto": "Taça Açai",
+        "id": 5,
+        "imagem":"https://raw.githubusercontent.com/PaulaPD/ProjetoAula4/master/tacadeacai.jpg"
+    }
+
+]

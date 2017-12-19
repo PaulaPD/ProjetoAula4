@@ -1,19 +1,18 @@
 import React from 'react';
-import { AppRegistry } from 'react-native';
-import App from './src/componentes/titulo';
-import listaLanchonete from './src/components/lista-coisas.2';
-
-AppRegistry.registerComponent('ProjetoAula4', () => App);
+import { AppRegistry, View } from 'react-native';
+import Titulo from './src/componentes/titulo';
+import ListaLanchonete from './src/componentes/listaLanchonete'
 
 
 const App = () => {
     return (
         <View>
             <Titulo texto={'Lista de Produtos da Lanchonete'} />
-            <listaLanchonete />
+            <ListaLanchonete/>
         </View>
 
     );
 };
 
-AppRegistry.registerComponent('lista', () => App);
+
+AppRegistry.registerComponent('ProjetoAula4', () => App);

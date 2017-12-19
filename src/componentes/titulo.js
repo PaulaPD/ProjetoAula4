@@ -14,12 +14,12 @@ const Titulo = (props) => {
 
 const estilos = {
     estiloView: {
-        backgroundColor: '#0000CD',
+        backgroundColor: '#98F5FF',
         justifyContent: 'center',
         alignItems: 'center',
         height: 60,
         paddingTop: 15,
-        shadowColor: '#48D1CC',
+        shadowColor: '#CD853F',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2,
         elevation: 2,
@@ -31,4 +31,4 @@ const estilos = {
     }
 };
 
-export default titulo;
+export default Titulo;

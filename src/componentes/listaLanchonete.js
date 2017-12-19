@@ -4,7 +4,7 @@ import { setTimeout } from 'core-js/library/web/timers';
 import Button from './button';
 
 
-class listaLanchonete extends Component {
+class ListaLanchonete extends Component {
 
     state = { lista: [], flag: 0 };
 
@@ -20,7 +20,7 @@ class listaLanchonete extends Component {
         this.setState({ lista: l });
     }
 
-    renderCoisa() {
+    renderLanchonete() {
         const { imagemStyle, containerStyle } = estilos;
         return this.state.lista.map(coisa =>
             <View style={containerStyle} key={coisa.id}>
@@ -65,4 +65,4 @@ const estilos = {
 };
 
 
-export default listaLanchonete;
+export default ListaLanchonete;
